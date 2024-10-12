@@ -6,7 +6,7 @@ import pandas as pd
 
 # Load your model file
 with open('app.py', 'rb') as f:
-    model = joblib.load(model_file)
+    model = joblib.load("model.pkl")
 
 st.title('Laptop CPU Frequency Predictor App')
 
