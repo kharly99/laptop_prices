@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 # Load your model file
-with open('app.py', 'w') as f:
+with open('app.py', 'rb') as f:
     model = joblib.load(model_file)
 
 st.title('Laptop CPU Frequency Predictor App')
